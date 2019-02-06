@@ -1,0 +1,306 @@
+[
+ {
+   "Keyword": "Activity",
+   "Definition": "",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Camping;Backpacking;Travel/On the Go"
+ },
+ {
+   "Keyword": "Added Ingredient",
+   "Definition": "",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Collagen;Protein"
+ },
+ {
+   "Keyword": "Antioxidants",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Contains Antioxidants;No Antioxidants"
+ },
+ {
+   "Keyword": "Antioxidant Source",
+   "Definition": "If the antioxidant source is not currently accounted for, please add additional values to the list.",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Pecans;Strawberries;Artichoke;Goji Berries;Raspberries;Kale;Dark Chocolate;Kidney Beans;Spinach;Blueberry;Beetroot"
+ },
+ {
+   "Keyword": "Artificial Colors",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Contains Artificial Colors;No Artificial Colors"
+ },
+ {
+   "Keyword": "Artificial Flavors",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Contains Artificial Flavors;No Artificial Flavors"
+ },
+ {
+   "Keyword": "Artificial Preservatives",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Contains Artificial Preservatives;No Artificial Preservatives"
+ },
+ {
+   "Keyword": "Artificial Sweeteners",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Contains Artificial Sweeteners;No Artificial Sweeteners;Not Specified"
+ },
+ {
+   "Keyword": "Bean Type",
+   "Definition": "Default value is \"Not Specified\" if bean type is not stated.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Arabica;Robusta;Arabica/Robusta Blend;Not Specified"
+ },
+ {
+   "Keyword": "Body",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Full-Body;Medium-Body"
+ },
+ {
+   "Keyword": "Brew Type",
+   "Definition": "\"Drip\" should be selected if brew type is not stated. \"Single-Serve Brewer \"should be selected if product form is a pod, k-cup, capsule or disc.",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Drip;Cold Brew;Instant;Single-Serve Brewer;French Press;Espresso Machine;Pour Over;Moka"
+ },
+ {
+   "Keyword": "Caffeine Profile",
+   "Definition": "Default value is \"Caffeinated\" if caffeine profile is not stated.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Decaffeinated;Half Caffeinated;Caffeinated;High Caffeinated"
+ },
+ {
+   "Keyword": "Certification",
+   "Definition": "A certification value should only be tagged to a product if the specific certification is printed on the package.",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Certified Organic;Certified Gluten Free;Certified Kosher;Certified Fair Trade;Certified Non-GMO;Rainforest Alliance Certified"
+ },
+ {
+   "Keyword": "Compatible Brewer",
+   "Definition": "Choose applicable brewer if product is a pod product.",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Keurig 1.0;Keurig 2.0;Tassimo T20;Tassimo T47;Tassimo T45;Nespresso Original Line;Nespresso Virtuo Line"
+ },
+ {
+   "Keyword": "Cooking Process",
+   "Definition": "Default value is \"Roasted\" if cooking process is not stated.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Roasted;Unroasted"
+ },
+ {
+   "Keyword": "Count of Ingredients",
+   "Definition": "Free Form: Enter the number of ingredients included in ingredient list.",
+   "Output Type": "",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": ""
+ },
+ {
+   "Keyword": "Drink Type",
+   "Definition": "Default value \"Coffee\" if drink type is not stated.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Espresso;Cappuccino;Coffee;Latte;Macchiato;Mocha;Iced Coffee"
+ },
+ {
+   "Keyword": "Environmental Profile",
+   "Definition": "",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Recyclable;Compostable;Biodegradable"
+ },
+ {
+   "Keyword": "Fat Claim",
+   "Definition": "Values should be selected if claimed on packaging or guidelines specify \"blanket\" claims should be made.",
+   "Output Type": "Multiple",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Fat Free;Low Fat;Not Specified;Saturated Fat Free;Trans Fat Free"
+ },
+ {
+   "Keyword": "Flavor",
+   "Definition": "Default is \"Unflavored\" if flavor is not specified. This attribute covers flavored coffees and should not be used to classify tasting notes.",
+   "Output Type": "Multiple",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Amaretto;Banana;Blueberry;Caramel;Chicory;Chocolate;Cinnamon;Cocoa;Coconut;Vanilla;Hazelnut;Irish Cream;Mocha;Original;Pecan;Peppermint;Pumpkin Spice;Raspberry;Snickers;Toffee;Unflavored;Vanilla"
+ },
+ {
+   "Keyword": "Flavor Profile",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Bold;Medium;Mild;Extra Bold"
+ },
+ {
+   "Keyword": "Grind",
+   "Definition": "\"Unground\" should only be selected for whole bean products. Default to \"Standard\" if no grind is specified for ground products.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Extra Fine;Fine;Standard;Coarse;Extra Coarse;Unground"
+ },
+ {
+   "Keyword": "Health Benefit Claims",
+   "Definition": "Values should be selected if claimed on packaging or guidelines specify \"blanket\" claims should be made.",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Weight Loss;Fat Burning"
+ },
+ {
+   "Keyword": "Ingredient Claims",
+   "Definition": "Values should be selected if claimed on packaging or guidelines specify \"blanket\" claims should be made.",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "No Calorie;Low Calorie;No Carb;Low Carb;Fat Free;Low Fat;Trans Fat Free;Lactose Free;Low Glycemic;Acid Free;Low Acid;Gluten Free;Dairy Free;Sugar Free;Vegan;Vegetarian;Halal;Paleo;Keto;Kosher;Organic;Non-GMO;Single Origin;Fair Trade;Natural;Mold Free"
+ },
+ {
+   "Keyword": "Origin",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Asia;Belgium;California;China;Columbia;Costa Rica;Cuba;Ethiopia;Florida;France;Greece;Guatemala;Hawaii;Italy;Jamaica;Japan;Kauai;Kenya;Kona;Korea;Local;Mexico;New Guinea;New Orleans;Philippines;Seattle;Sumatra;Thailand;Turkey;Vietnam;Zambia"
+ },
+ {
+   "Keyword": "Product Form",
+   "Definition": "If \"K-Cup, Disc or Capsule\" is selected, \"Pod\" should also be selected.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Whole Beans;Ground Beans;Concentrate;Freeze Dried;Liquid;Shake/Shake Mix;Pod;K-Cup;Disc;Capsule;Instant Mix"
+ },
+ {
+   "Keyword": "Roast",
+   "Definition": "Default to \"Not Specified\" if roast type is not stated. \"If Roast Blend = French Roast, then Roast = Dark\nIf Roast Blend = Breakfast Blend, then Roast = Light\nIf Roast Blend = House Blend, then Roast = Light\nIf Roast Blend = Master Blend, then Roast = Light\n\nIf Flavor Profile = Bold, then Roast = Dark\nIf Flavor Profile = Medium, then Roast = Medium (unless otherwise stated)\nIf Flavor Profile = Mild, then Roast = Light (unless otherwise stated)\"",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Light;Medium;Medium-Dark;Dark;Extra Dark;Blonde;Not Specified"
+ },
+ {
+   "Keyword": "Roast Blend",
+   "Definition": "",
+   "Output Type": "Single",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Breakfast Blend;Holiday Blend;Traditional Roast;Original Roast;Premium Roast;Dark Gold Roast;Espresso Roast Original;Gourmet Roast;French Roast;Italian Roast;Spanish Roast;House Blend;Intense Bold;Majestic Roast;Medium Roast;Morning Blend;Pacific Coast Blend;Royal Roast;Signature Blend;Smooth Bold;Wake Up Roast;Winter Wonder"
+ },
+ {
+   "Keyword": "Sodium Claim",
+   "Definition": "Values should be selected if claimed on packaging or guidelines specify \"blanket\" claims should be made.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Low Salt;Low Sodium;No Added Salt;Not Specified"
+ },
+ {
+   "Keyword": "Sugar Claim",
+   "Definition": "Values should be selected if claimed on packaging or guidelines specify \"blanket\" claims should be made.",
+   "Output Type": "Single",
+   "Required": "Required",
+   "Relationship": "Family",
+   "Values": "Low Sugar;No Added Sugar;Not Specified;Sugar Free"
+ },
+ {
+   "Keyword": "Tasting Notes",
+   "Definition": "Free Form",
+   "Output Type": "",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": ""
+ },
+ {
+   "Keyword": "Descriptive Claim",
+   "Definition": "",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Family",
+   "Values": "Artisan;Award Winning;Best;Craft;Fancy;Fresh;Gourmet;Healthy;Premium;Value;Special Reserve;Limited Edition"
+ },
+ {
+   "Keyword": "Derived Size",
+   "Definition": "",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Sibling",
+   "Values": "Small;Large;Mini;Bulk"
+ },
+ {
+   "Keyword": "Gift",
+   "Definition": "",
+   "Output Type": "Multiple",
+   "Required": "Optional",
+   "Relationship": "Sibling",
+   "Values": "Gift;Gift Set;Gift Basket"
+ },
+ {
+   "Keyword": "Packaging Form",
+   "Definition": "Refers to outer packaging. For example a box of pods would be listed as \"box\"",
+   "Output Type": "Multiple",
+   "Required": "Required",
+   "Relationship": "Sibling",
+   "Values": "Bag;Box;Can;Bottle;Resealable Bag;Variety/Sampler Pack;Canister;Packet;Pouch;Carton;Froth Packet"
+ },
+ {
+   "Keyword": "Pack/Count QTY",
+   "Definition": "Free Form: Please identify the quantity of packs within the item (if k cups, single serves, etc).",
+   "Output Type": "",
+   "Required": "Required",
+   "Relationship": "Sibling",
+   "Values": ""
+ },
+ {
+   "Keyword": "Packaging Size",
+   "Definition": "Free Form: Please include the size of the products within a pack at the each level",
+   "Output Type": "",
+   "Required": "Required",
+   "Relationship": "Sibling",
+   "Values": ""
+ },
+ {
+   "Keyword": "Packaging Unit of Measure",
+   "Definition": "Free Form: Ounces, Gallons, Pounds",
+   "Output Type": "",
+   "Required": "Required",
+   "Relationship": "Sibling",
+   "Values": ""
+ }
+]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="jquery.ketchup.css" />
+    <script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="jquery.ketchup.all.min.js"></script>
+</head>
+
+<body>
+  <div style="padding: 5px;">
+    <form id="own-validation" action="index.html">
+        <ul>
+            <li>
+                <label for="ov-word">Ketchup or Mustard</label>
+                <input type="text" id="ov-word" data-validate="validate(word(ketchup, mustard))" />
+            </li>
+            <li>
+                <input type="submit" value="Is Tasty?" />
+            </li>
+        </ul>
+    </form>
+  </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

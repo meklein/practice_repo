@@ -1,0 +1,3 @@
+How did viewing the diff btw the two versions of files help you see the bug that was introduced?
+-It literally shows you the diff between the old line and new, so you can easily see the changes that were made and whether they were intentional
+
