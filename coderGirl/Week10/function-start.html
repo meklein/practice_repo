@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Function start</title>
+    <style>
+      .msgBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 242px;
+        background: #eee;
+      }
+      .msgBox p {
+        line-height: 1.5;
+        padding: 10px 20px;
+        padding-left: 82px;
+        background-position: 25px center;
+        background-repeat: no-repeat;
+        color: #333;
+      }
+      .msgBox button {
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.1rem;
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+
+    <form>
+        Message: <input type="text" id="msgText"><br>
+        <input type="radio" name="msgType" value="warning"> Warning<br>
+        <input type="radio" name="msgType" value="chat"> Chat<br>
+        <button>Display message box</button>
+    </form>
+
+
+    <script>
+      var btn = document.querySelector('button');
+      var msgText = document.getElementById('msgText').innerText;
+      var msgType = document.getElementsByName('msgType');
+
+      console.log(msgText);
+      console.log(msgType);
+
+      btn.onclick = function() {
+          displayMessage(msgText, msgType);
+      };
+
+      function displayMessage(msgText, msgType){
+          var html = document.querySelector('html');
+          var panel = document.createElement('div');
+          var msg = document.createElement('p');
+          var closebtn = document.createElement('button');
+
+          panel.setAttribute('class', 'msgBox');
+          html.appendChild(panel);
+
+          msg.textContent = msgText;
+          panel.appendChild(msg);
+
+          closebtn.textContent = 'x';
+          panel.appendChild(closebtn);
+
+          closebtn.onclick = function(){
+          panel.parentNode.removeChild(panel);
+          }
+
+          if (msgType === 'warning') {
+              msg.style.backgroundImage = "url('https://raw.githubusercontent.com/mdn/learning-area/master/javascript/building-blocks/functions/icons/warning.png')";
+              panel.style.backgroundColor = 'red';
+          } else if (msgType === 'chat') {
+              msg.style.backgroundImage = "url('https://raw.githubusercontent.com/mdn/learning-area/master/javascript/building-blocks/functions/icons/chat.png')";
+              panel.style.backgroundColor = 'aqua';
+          } else {
+              msg.style.paddingLeft = '20px';
+          }
+      };
+
+
+    </script>
+  </body>
+</html>
